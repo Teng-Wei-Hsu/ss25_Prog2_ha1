@@ -48,7 +48,7 @@ public class Calculator {
         if (screen.equals("0")) {
             latestOperation = "";
             latestValue = 0.0;
-        } // Reset only if the "IF" condition = True
+        } // Fully reset only if the "IF" condition = True, otherwise only clear the current screen
         screen = "0";
     }
 
